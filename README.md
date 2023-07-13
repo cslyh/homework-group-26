@@ -1,4 +1,4 @@
-![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/2fe7d03d-50f8-490e-ad9e-173c254ccacb)**姓名：罗裕辉       学号：202100460046**
+**姓名：罗裕辉       学号：202100460046**
 
 负责project:1,2,3,4,5,9,11,13,14,17,21（全部由本人单独完成）
 
@@ -115,7 +115,8 @@ CPU：i7-13700h
 
 参考网上资料，SM3的过程如下
 
-![img](https://pic4.zhimg.com/80/v2-380647a6a95d50e571dca706f8022a23_1440w.webp)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/30357310-8157-41fa-8a55-14bc40489c3c)
+
 
 由于要求对SM3进行软件优化，经过思考发现，在SM3算法中，关键的是中间的8个32位整数，它们分别表示为`a`、`b`、`c`、`d`、`e`、`f`、`g`和`h`。这些中间值在SM3算法的压缩函数中起着重要的作用。在每个压缩函数的迭代中，这些中间值会根据输入数据和常量进行更新和变换。它们的变化过程是SM3算法中的核心部分。因此主要考虑如何提高这8个32位整数变换的并行度。
 
@@ -172,7 +173,8 @@ RFC 6962定义了一种用于可信日志（例如证书透明性日志）的Mer
 
 SM4的流程图如下：
 
-![SM4密码算法的频域能量分析攻击](https://ts1.cn.mm.bing.net/th/id/R-C.b0f279a8621535be483fbc8e1da72860?rik=FetXZ91%2f76xstQ&riu=http%3a%2f%2fnetinfo-security.org%2ffileup%2f1671-1122%2fFIGURE%2f2015-15-8%2fImages%2f1671-1122-15-8-14%2fimg_1.png&ehk=gIlQnrmcj0rD55%2bb8aCSgwiO77lDrk1EXI2n57ziaPA%3d&risl=&pid=ImgRaw&r=0)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/c0f69d8b-ef0c-411b-a88a-b9b585845d88)
+
 
 目标是优化SM4，考虑到之前计原做过在FPGA上优化加速SM4的实验，加速到2万多倍，参考那次实验完成优化。
 
