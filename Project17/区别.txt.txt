@@ -1,0 +1,4 @@
+- 密码管理器：Firefox使用称为"Firefox Lockwise"的密码管理器，该管理器会在设备和Firefox帐户之间对密码进行同步，而Google Chrome使用Google帐户对密码进行同步
+- 储存：Firefox的密码保存在一个本地的加密数据库中，Google Chrome的密码也被保存在一个加密的本地数据库中，但对于Windows用户，这些密码在某些情况下可以通过Windows凭证访问，所以个别场景下才可能存在泄露隐患。
+
+- 其他：Firefox提供了一个主密码功能，该功能可以在其他人尝试查看存储的密码时要求输入，而在Google Chrome中，可以选择为特定的站点“永不保存密码”。
