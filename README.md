@@ -1,4 +1,4 @@
-**姓名：罗裕辉       学号：202100460046**
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/2fe7d03d-50f8-490e-ad9e-173c254ccacb)**姓名：罗裕辉       学号：202100460046**
 
 负责project:1,2,3,4,5,9,11,13,14,17,21（全部由本人单独完成）
 
@@ -33,13 +33,16 @@ CPU：i7-13700h
 
 完成32、40、48bit碰撞
 
-![1688481001212](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1688481001212.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/b3b25ccf-143b-4038-ba36-b366ebf1c6f5)
 
-![img](file:///D:\Tencent\QQData\1803601837\Image\C2C\9CIPCD2_BG}$%U15HOCE4Z3.png)
 
-![1688479181209](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1688479181209.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/50ef1cee-4e09-4acd-a689-d0046500e82b)
 
-![1688479193792](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1688479193792.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/3926bced-8e27-4ad2-a611-a8440b8fa155)
+
+
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/4779ce37-f1a2-4f0e-b6c8-73ae0197fce0)
+
 
 
 
@@ -69,13 +72,16 @@ CPU：i7-13700h
 
 完成32、40、48bit碰撞，并且比生日攻击更快，可能是由于是递归迭代，字符串不够随机
 
-![1688480947344](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1688480947344.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/026f54e9-37eb-4ddb-be5b-ccd2ca17a23d)
 
-![1688479372325](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1688479372325.png)
 
-![1688479380511](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1688479380511.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/c0510e6c-9b9b-4101-9fae-5dcf2d1e6541)
 
-![1688479385843](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1688479385843.png)
+
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/2a7c78dc-759e-4d61-a590-a65d771e3814)
+
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/01a1b06d-4756-436b-90d5-19f618f5c283)
+
 
 
 
@@ -85,7 +91,8 @@ CPU：i7-13700h
 
 这里的长度扩展攻击主要是针对MD结构的，因为MD结构是**分块迭代进行哈希**计算的方式，附上密码学引论慕课上的图和SM3的填充规则，因此我们可以在原始消息后按照规则填充至512整数倍后再填充任意消息实现长度扩展攻击：
 
-![1689079199196](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689079199196.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/30aaee05-ba21-45c6-9206-01105fcb3306)
+
 
 ![img](https://pic3.zhimg.com/v2-366d5284c75a6ac92fdbc12ce5b45a2a_r.jpg)
 
@@ -95,7 +102,8 @@ CPU：i7-13700h
 
 ## 实现效果
 
-![1689079409859](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689079409859.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/20aeb116-1bf1-4d96-a536-6765b1076b19)
+
 
 
 
@@ -123,9 +131,10 @@ IDE：IDEA2019.2.3
 
 考虑到使用方便，采用Java语言实现SM3，并在两处使用Java并行流进行优化，如下：
 
-![1689216056730](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689216056730.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/13cc415d-f596-4ebe-86c8-464d0bd3a46f)
 
-![1689216077147](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689216077147.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/e98d64cf-c1c8-4440-8f81-8487d9c8cf5f)
+
 
 > 介绍：Java并行流是Java 8引入的一种并行处理数据流的机制。它可以将一个数据流分成多个子流，并行地对每个子流进行操作，从而提高处理大量数据的效率。使用并行流可以简化并行处理的编程模型，无需显式地创建和管理线程。Java并行流内部使用了Fork/Join框架来自动将任务分配给多个线程执行，并将结果合并。
 
@@ -133,7 +142,8 @@ IDE：IDEA2019.2.3
 
 运行结果为1.55ms完成一次SM3运算
 
-![1689216159490](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689216159490.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/af0f8dbd-88b3-41ba-90e6-c425bbdbd8b1)
+
 
 # Project5: Impl Merkle Tree following RFC6962
 
@@ -149,7 +159,8 @@ RFC 6962定义了一种用于可信日志（例如证书透明性日志）的Mer
 
 ## 实现效果
 
-![1689077176143](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689077176143.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/718598b5-0aa4-4bee-a028-527c4e5bfca9)
+
 
 
 
@@ -169,22 +180,26 @@ SM4的流程图如下：
 
 - inline内联：inline是C++关键字，当函数被声明为`inline`时，编译器会尝试将函数的代码插入到调用该函数的地方，而不是通过函数调用的方式执行。这样可以减少函数调用的开销，提高程序的执行效率。这里使用到一些基本算子中。
 
-![1689219295869](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689219295869.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/3df5ec11-60f8-404a-ae03-ebd866304c38)
+
 
 - unroll循环展开：循环展开是一种优化技术，通过将循环中的迭代次数减少，将循环体的代码复制多次来减少循环的开销。这样可以减少循环控制的开销、提高指令级并行性和减少分支预测错误的可能性。这里在最后的密文加载手动循环展开4轮，受限于环境，在FPGA上可以完全展开。
 
-![1689219377241](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689219377241.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/271b03f0-c9fd-44fc-a703-c9b475fb0a42)
+
 
 - 位移操作：位移操作是一种在二进制级别上对数据进行移动的操作，相比四则运算它更快，因此在代码实现中尽可能采用位移操作提速
 - SIMD指令：SIMD是单指令多数据，但是可能是由于代码中我们使用的是32位的uint32_t类型，而SSE指令集中128位的__m128i，存在格式转换问题，以及一些数据依赖问题，使用如下的优化后效果不明显，因此并没有采用。
 
-![1689219743393](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689219743393.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/669cd111-25a2-4019-bdc7-bce5bae4ee6c)
+
 
 ## 实现效果
 
 0.0016ms完成一次SM4
 
-![1689219789931](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689219789931.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/301d76c6-1dbb-4734-a81e-adc05f35b494)
+
 
 # Project11: impl sm2 with RFC6979
 
@@ -196,13 +211,15 @@ SM2 是中国国家密码管理局发布的非对称加密算法标准，而 RFC
 
 - 由于重点在于k值的生成，因此我们重点实现了K值生成函数
 
-  ![1689235893416](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689235893416.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/71f01541-4332-4b03-b204-e3a8de87e3eb)
+
 
 - 椭圆曲线参数采用GM/T 0003.1-2012 标准，其余直接调用python库函数，并进行签名和验签应用
 
 ## 实现效果
 
-![1689235905342](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689235905342.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/a32131db-c05d-4fae-ae48-e25b84e23831)
+
 
 # Project13: Implement the above ECMH scheme
 
@@ -214,15 +231,17 @@ ECMH是一种基于椭圆曲线的加密方案，它结合了椭圆曲线的离�
 
 - 哈希映射，将消息哈希后映射成椭圆曲线上的点
 
-  ![1689237493914](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689237493914.png)
+  ![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/6d0d568f-f5a1-4231-b66d-3e963c492896)
+
 
 - ECC的加法，按照ECC的加法规则进行即可
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/92074591-590c-4c78-a1fa-9ec69ad77032)
 
-  ![1689237534463](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689237534463.png)
 
 ## 实现效果
 
-![1689237616292](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689237616292.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/36dbafc5-7a0f-4892-8de7-4e787251f563)
+
 
 # Project14: Implement a PGP scheme with SM2
 
@@ -234,13 +253,15 @@ PGP是一种混合加密方案，它的主要思想是使用对称加密算法�
 
 - 重点实现PGP的加密运用，采用安全性更高的OAEP
 
-  ![1689238172982](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689238172982.png)
+ ![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/3ed969cc-b0aa-432f-847a-4b2f0cf41e21)
+
 
 - 其余调用库函数实现，主要实现好它们之间的组合运用
 
 ## 实现效果
 
-![1689238270042](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689238270042.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/1d443a8c-673e-4f0b-9301-9adb47cd7388)
+
 
 # Project17：比较Firefox和谷歌的记住密码插件的实现区别
 
@@ -279,11 +300,13 @@ Schnorr Batch 是基于 Schnorr 签名算法的改进版本，用于在一个批
 
 - 批量签名的应用：先计算统计批量挑战再进行分块并批量签名，并以'Project21'和 'Schnorr Bacth'两个消息作为测试
 
-  ![1689249721733](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689249721733.png)
+ ![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/a0d1c72b-49af-43ef-8bc2-73754fe77684)
+
 
 ## 实现效果
 
 一次性产生了两个签名
 
-![1689249740447](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689249740447.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/b43fe413-c34c-4f5f-995d-156e1484e261)
+
 
