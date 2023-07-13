@@ -22,12 +22,12 @@ CPU：i7-13700h
 ## 实现特点
 
 - **充分利用CPU的算力**，进程数设置为multiprocessing.cpu_count()，使用python多进程加速
-
-  ![1689220326995](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689220326995.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/ef194b9d-0e6a-4525-a440-4ee3fe138a4c)
 
 - **使用共享字典存储**，牺牲空间换时间
 
-  ![1689220349436](C:\Users\HBenF\AppData\Roaming\Typora\typora-user-images\1689220349436.png)
+![image](https://github.com/sdu-benfu/homework-group-26/assets/92632263/1573c147-de9e-4b5e-92ef-35e83d9c930c)
+
 
 ## 实现效果
 
